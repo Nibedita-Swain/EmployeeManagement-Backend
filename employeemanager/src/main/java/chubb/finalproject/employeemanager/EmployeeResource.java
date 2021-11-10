@@ -18,6 +18,7 @@ import chubb.finalproject.employeemanager.service.EmployeeService;
 
 @RestController
 @RequestMapping("/employee")
+@CrossOrigin(origins="/http://localhost:1200")
 public class EmployeeResource {
 
 	private  final EmployeeService employeeService ;
